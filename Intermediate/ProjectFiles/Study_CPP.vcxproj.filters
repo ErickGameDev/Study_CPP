@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <None Include="..\..\Study_CPP.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{F31BBDD1-B3E8-3BCC-9652-680E16935819}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPPEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\.vsconfig" />
+    <Filter Include="Config">
+      <UniqueIdentifier>{FA535FFB-25E1-3D20-B416-52F9BE21E06E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP">
+      <UniqueIdentifier>{0AE50275-882B-324A-9623-DD73F8473621}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.gitattributes">
+      <Filter>Source\Study_CPP</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\Study_CPP.Build.cs">
+      <Filter>Source\Study_CPP</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\Study_CPP\Study_CPP.cpp">
+      <Filter>Source\Study_CPP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Study_CPP\Study_CPP.h">
+      <Filter>Source\Study_CPP</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Study_CPP\Study_CPPCharacter.cpp">
+      <Filter>Source\Study_CPP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Study_CPP\Study_CPPCharacter.h">
+      <Filter>Source\Study_CPP</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\Study_CPP\Study_CPPGameMode.cpp">
+      <Filter>Source\Study_CPP</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\Study_CPP\Study_CPPGameMode.h">
+      <Filter>Source\Study_CPP</Filter>
+    </ClInclude>
+    <Filter Include="Source\Study_CPP\.git">
+      <UniqueIdentifier>{BCAD8FD4-98CA-3B55-AF74-6B20555BA944}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\AUTO_MERGE">
+      <Filter>Source\Study_CPP\.git</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\.git\COMMIT_EDITMSG">
+      <Filter>Source\Study_CPP\.git</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\.git\config">
+      <Filter>Source\Study_CPP\.git</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\.git\description">
+      <Filter>Source\Study_CPP\.git</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\.git\FETCH_HEAD">
+      <Filter>Source\Study_CPP\.git</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\.git\HEAD">
+      <Filter>Source\Study_CPP\.git</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\.git\index">
+      <Filter>Source\Study_CPP\.git</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\hooks">
+      <UniqueIdentifier>{5212D237-FC5E-3372-B1D4-19A5102DDAFB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\hooks\applypatch-msg.sample">
+      <Filter>Source\Study_CPP\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\.git\hooks\commit-msg.sample">
+      <Filter>Source\Study_CPP\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\.git\hooks\fsmonitor-watchman.sample">
+      <Filter>Source\Study_CPP\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\.git\hooks\post-update.sample">
+      <Filter>Source\Study_CPP\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\.git\hooks\pre-applypatch.sample">
+      <Filter>Source\Study_CPP\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\.git\hooks\pre-commit.sample">
+      <Filter>Source\Study_CPP\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\.git\hooks\pre-merge-commit.sample">
+      <Filter>Source\Study_CPP\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\.git\hooks\pre-push.sample">
+      <Filter>Source\Study_CPP\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\.git\hooks\pre-rebase.sample">
+      <Filter>Source\Study_CPP\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\.git\hooks\pre-receive.sample">
+      <Filter>Source\Study_CPP\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\.git\hooks\prepare-commit-msg.sample">
+      <Filter>Source\Study_CPP\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\.git\hooks\push-to-checkout.sample">
+      <Filter>Source\Study_CPP\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\.git\hooks\sendemail-validate.sample">
+      <Filter>Source\Study_CPP\.git\hooks</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\.git\hooks\update.sample">
+      <Filter>Source\Study_CPP\.git\hooks</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\info">
+      <UniqueIdentifier>{FBF55F35-391C-3E84-A187-CA3ED8E1C649}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\info\exclude">
+      <Filter>Source\Study_CPP\.git\info</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\logs">
+      <UniqueIdentifier>{1F1385B3-84FF-362F-B6E6-9F16988A43C8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\logs\HEAD">
+      <Filter>Source\Study_CPP\.git\logs</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\logs\refs">
+      <UniqueIdentifier>{6D54DD49-3C66-340E-99FD-692F5BAA9BE9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Study_CPP\.git\logs\refs\heads">
+      <UniqueIdentifier>{A8542D48-A76C-3026-AA02-2AB2505E5995}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\logs\refs\heads\main">
+      <Filter>Source\Study_CPP\.git\logs\refs\heads</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\logs\refs\remotes">
+      <UniqueIdentifier>{CDA8A597-C729-322D-9684-CAC06DA9CCF3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Study_CPP\.git\logs\refs\remotes\origin">
+      <UniqueIdentifier>{4212E638-C16A-3D0B-95C9-89361F0D7114}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\logs\refs\remotes\origin\HEAD">
+      <Filter>Source\Study_CPP\.git\logs\refs\remotes\origin</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\.git\logs\refs\remotes\origin\main">
+      <Filter>Source\Study_CPP\.git\logs\refs\remotes\origin</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects">
+      <UniqueIdentifier>{4BD86929-DD1D-3FF7-97BC-BA0F14C31A7D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Study_CPP\.git\objects\01">
+      <UniqueIdentifier>{5E6244B4-D7AF-3300-80C3-26887285DAC6}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\01\2af2f880fff901db266995ff42046affe92874">
+      <Filter>Source\Study_CPP\.git\objects\01</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\15">
+      <UniqueIdentifier>{12C8BAE0-8496-34C9-90EA-918E0DEC8A3F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\15\f6e07c03f1df9d011325a0d2906ac28bfbadc5">
+      <Filter>Source\Study_CPP\.git\objects\15</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\17">
+      <UniqueIdentifier>{3FAF7D9C-4CBB-3FF1-AA8B-379E08994F31}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\17\28a310ee632e7246e12785f63e6f0a421c9fdb">
+      <Filter>Source\Study_CPP\.git\objects\17</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\19">
+      <UniqueIdentifier>{0426F254-2A69-38F0-BAE6-E98F3CB3A0A3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\19\216dfd9d8f123a28f01a9b65fdf434dfb1a8e4">
+      <Filter>Source\Study_CPP\.git\objects\19</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\26">
+      <UniqueIdentifier>{64208C55-72A2-341C-9F29-7DF13273993D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\26\bd279b5c4df2c6a2f4cd2da43a61a2bd5199d6">
+      <Filter>Source\Study_CPP\.git\objects\26</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\31">
+      <UniqueIdentifier>{DB51FD96-766C-308D-A8FD-77E4AB6B8918}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\31\7b7ad0c47e844a26e149f4aa7dbca0035eb9ef">
+      <Filter>Source\Study_CPP\.git\objects\31</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\32">
+      <UniqueIdentifier>{81007A03-760E-336A-B99D-DE220904E4EC}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\32\d08e9659b7607ff29b45ef92413dfc62135091">
+      <Filter>Source\Study_CPP\.git\objects\32</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\57">
+      <UniqueIdentifier>{D8E23546-5FD8-3800-9E45-260AA3B6223F}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\57\fc8b31fb1b76f45ebb40fdc941f538d95ba047">
+      <Filter>Source\Study_CPP\.git\objects\57</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\5c">
+      <UniqueIdentifier>{26E491DA-AF55-3ED3-A9C8-D34BECD827AB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\5c\e5e9a9374c2a25a8d903ae546f2ead8df5a6f6">
+      <Filter>Source\Study_CPP\.git\objects\5c</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\5d">
+      <UniqueIdentifier>{1628ADD1-E81D-3844-912E-942669A50C0C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\5d\1072bd7f8a270b0cbbf5a6f0b6611865b08879">
+      <Filter>Source\Study_CPP\.git\objects\5d</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\62">
+      <UniqueIdentifier>{96E810D7-294F-35A1-B893-79CC3F16E47A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\62\432765dbb1b7660e8deb1a3cb376433885da90">
+      <Filter>Source\Study_CPP\.git\objects\62</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\68">
+      <UniqueIdentifier>{2E3E1650-B8B8-3AAE-8865-2F95ECC58778}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\68\9965a20e7c1b189c18a145ff4c126283a5c96e">
+      <Filter>Source\Study_CPP\.git\objects\68</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\6b">
+      <UniqueIdentifier>{19ACC8A6-F12D-31E9-9688-673616D3E99A}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\6b\cfac1b9ee027340f8fec2d876bee5874cab5d3">
+      <Filter>Source\Study_CPP\.git\objects\6b</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\70">
+      <UniqueIdentifier>{E43258C6-66F4-3FDB-8BB9-34C303C2602E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\70\22b2956be7b4afc06ae30fe1c8a44d15983ae7">
+      <Filter>Source\Study_CPP\.git\objects\70</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\77">
+      <UniqueIdentifier>{53ADDEC6-8104-3B71-BC82-C1BAEF044C5E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\77\c686aeedd8d2350c4bb12dd215be703f9c8064">
+      <Filter>Source\Study_CPP\.git\objects\77</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\7a">
+      <UniqueIdentifier>{4EAE24B9-4230-3E90-AFBC-5220FC14F1B0}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\7a\47d94f3233556b61541a8f45bca8ab0fb65277">
+      <Filter>Source\Study_CPP\.git\objects\7a</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\7b">
+      <UniqueIdentifier>{0F4560E8-9F1D-332C-8C19-49BB1D598A8E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\7b\a127bc17ce0914f503ea4e1b6bae3aac39499a">
+      <Filter>Source\Study_CPP\.git\objects\7b</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\82">
+      <UniqueIdentifier>{0EA3D461-B9CB-3C80-8AA9-2D8F92D612DF}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\82\0c85876ee42532e37c89b4bf7503e691382281">
+      <Filter>Source\Study_CPP\.git\objects\82</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\94">
+      <UniqueIdentifier>{9E0595A8-9301-3CCB-9662-965FFA83D879}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\94\fa752cf748cd3ad8fd1dab7855c125e99a486f">
+      <Filter>Source\Study_CPP\.git\objects\94</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\95">
+      <UniqueIdentifier>{23665850-77E6-3E2F-A65B-F4D485B1853D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\95\67da831d32bdee5c3424f61b65f63d69a7864d">
+      <Filter>Source\Study_CPP\.git\objects\95</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\a8">
+      <UniqueIdentifier>{A5F32D2D-FD5A-3A4B-84C6-C20067C23862}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\a8\45c8a261c1b20b6417bae464365f5070356d1e">
+      <Filter>Source\Study_CPP\.git\objects\a8</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\b1">
+      <UniqueIdentifier>{B160410D-A7D5-38E1-94CF-8E014111C4B3}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\b1\6198bab2be77a72d57c62f55ddfc03c68041e7">
+      <Filter>Source\Study_CPP\.git\objects\b1</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\bc">
+      <UniqueIdentifier>{E3A20B1B-5FB6-3CB3-828A-26B96AC2B167}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\bc\8bdacffd60b07864e4b9ae5fd14ca34e49ee5e">
+      <Filter>Source\Study_CPP\.git\objects\bc</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\bf">
+      <UniqueIdentifier>{96B9F27D-E079-333C-909D-CD3DC808D97D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\bf\afe0665d90fa0271dd9cdc83336d29160d5804">
+      <Filter>Source\Study_CPP\.git\objects\bf</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\c3">
+      <UniqueIdentifier>{8DEF802C-3330-3988-AE5A-64F4C42F61FE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\c3\5170ecf1697b0282f9f986fc054ced9e295b2c">
+      <Filter>Source\Study_CPP\.git\objects\c3</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\c4">
+      <UniqueIdentifier>{97C7973D-C32E-3C52-A018-436FF571FE9C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\c4\a9cd510ddc78b42b3be5ed64e381ba2e016867">
+      <Filter>Source\Study_CPP\.git\objects\c4</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\c5">
+      <UniqueIdentifier>{49C28CF5-3EAE-3036-8378-175406DFB844}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\c5\f1bcf37ae1760857a6abaffb70d21fd91fcd98">
+      <Filter>Source\Study_CPP\.git\objects\c5</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\cb">
+      <UniqueIdentifier>{5D19B826-968E-32FA-BFA3-1AC404ACF2BB}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\cb\21bb3b8949ba79cb259516bc75f9a8b4b2bede">
+      <Filter>Source\Study_CPP\.git\objects\cb</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\d0">
+      <UniqueIdentifier>{6A362D82-30FC-30D1-8F68-9B0EC92A5866}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\d0\0fa1045cb51814375ac5cf0346ba4cb1d2daea">
+      <Filter>Source\Study_CPP\.git\objects\d0</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\dd">
+      <UniqueIdentifier>{BDDE8A85-3860-3ACC-BD30-FE2F8404B35D}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\dd\bf2e22dde04f66c4e80d2b348b4fcc53e0b331">
+      <Filter>Source\Study_CPP\.git\objects\dd</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\df">
+      <UniqueIdentifier>{178EE496-EC33-3FD3-8BFB-8B9E0ED952B8}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\df\1240e0a5226123be4860c8eed16fce771a79de">
+      <Filter>Source\Study_CPP\.git\objects\df</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\.git\objects\df\e0770424b2a19faf507a501ebfc23be8f54e7b">
+      <Filter>Source\Study_CPP\.git\objects\df</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\e6">
+      <UniqueIdentifier>{26AD12C0-F289-3948-894C-9907BB5A9402}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\e6\b7d9c30c4a6b2e30f43af6bfd54a591eaf248b">
+      <Filter>Source\Study_CPP\.git\objects\e6</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\f8">
+      <UniqueIdentifier>{CF8027F8-6C66-3A75-A729-B80CAB0DA22C}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\f8\591ff483c5c71a8744ea1a8b5c489efb68cd3f">
+      <Filter>Source\Study_CPP\.git\objects\f8</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\objects\f9">
+      <UniqueIdentifier>{939E9D85-6C3D-35C7-BD64-16E68933D6CE}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\objects\f9\57bb0ce63ab9456ecb3e63703441bb45e3ae6b">
+      <Filter>Source\Study_CPP\.git\objects\f9</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\refs">
+      <UniqueIdentifier>{B2A03438-B369-3E21-B818-B2553885A43B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Study_CPP\.git\refs\heads">
+      <UniqueIdentifier>{DCB4108F-96D1-39D8-A8EA-48290E57D8EA}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\refs\heads\main">
+      <Filter>Source\Study_CPP\.git\refs\heads</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\.git\refs\remotes">
+      <UniqueIdentifier>{9D232B99-017D-3476-A9E3-41FB918193F3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Study_CPP\.git\refs\remotes\origin">
+      <UniqueIdentifier>{9A79CABC-EC5E-3127-ACBC-F048CCD70842}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\Study_CPP\.git\refs\remotes\origin\HEAD">
+      <Filter>Source\Study_CPP\.git\refs\remotes\origin</Filter>
+    </None>
+    <None Include="..\..\Source\Study_CPP\.git\refs\remotes\origin\main">
+      <Filter>Source\Study_CPP\.git\refs\remotes\origin</Filter>
+    </None>
+    <Filter Include="Source\Study_CPP\Private">
+      <UniqueIdentifier>{48746148-1DE4-3919-8E5C-99737DB404DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Study_CPP\Private\Projectile">
+      <UniqueIdentifier>{A6164575-7393-3D34-8368-F32E8F3E7E0B}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Study_CPP\Private\Projectile\AProjectileBase.cpp">
+      <Filter>Source\Study_CPP\Private\Projectile</Filter>
+    </ClCompile>
+    <Filter Include="Source\Study_CPP\Private\RotateMesh">
+      <UniqueIdentifier>{7A1D9C7D-EA6E-3E4F-A07A-53EE784A3AB6}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\Study_CPP\Private\RotateMesh\ARotateMesh.cpp">
+      <Filter>Source\Study_CPP\Private\RotateMesh</Filter>
+    </ClCompile>
+    <Filter Include="Source\Study_CPP\Public">
+      <UniqueIdentifier>{36C51E0E-7EC1-3C29-9608-5B03833BC043}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Study_CPP\Public\Projectile">
+      <UniqueIdentifier>{1964A57D-1A6F-3683-B421-48F5F58BB88C}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Study_CPP\Public\Projectile\AProjectileBase.h">
+      <Filter>Source\Study_CPP\Public\Projectile</Filter>
+    </ClInclude>
+    <Filter Include="Source\Study_CPP\Public\RotateMesh">
+      <UniqueIdentifier>{794DEEF2-D4D5-3200-86F7-8F6DB0D17D7E}</UniqueIdentifier>
+    </Filter>
+    <ClInclude Include="..\..\Source\Study_CPP\Public\RotateMesh\ARotateMesh.h">
+      <Filter>Source\Study_CPP\Public\RotateMesh</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
