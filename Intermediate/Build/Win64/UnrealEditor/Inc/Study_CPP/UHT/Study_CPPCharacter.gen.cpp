@@ -9,17 +9,67 @@
 PRAGMA_DISABLE_DEPRECATION_WARNINGS
 void EmptyLinkFunctionForGeneratedCodeStudy_CPPCharacter() {}
 // Cross Module References
+	COREUOBJECT_API UClass* Z_Construct_UClass_UClass();
 	ENGINE_API UClass* Z_Construct_UClass_ACharacter();
 	ENGINE_API UClass* Z_Construct_UClass_UCameraComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USpringArmComponent_NoRegister();
 	ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputAction_NoRegister();
 	ENHANCEDINPUT_API UClass* Z_Construct_UClass_UInputMappingContext_NoRegister();
+	STUDY_CPP_API UClass* Z_Construct_UClass_AAProjectileBase_NoRegister();
 	STUDY_CPP_API UClass* Z_Construct_UClass_AStudy_CPPCharacter();
 	STUDY_CPP_API UClass* Z_Construct_UClass_AStudy_CPPCharacter_NoRegister();
 	UPackage* Z_Construct_UPackage__Script_Study_CPP();
 // End Cross Module References
+	DEFINE_FUNCTION(AStudy_CPPCharacter::execFireProjectile)
+	{
+		P_GET_OBJECT(UClass,Z_Param_ProjectileClass);
+		P_FINISH;
+		P_NATIVE_BEGIN;
+		P_THIS->FireProjectile(Z_Param_ProjectileClass);
+		P_NATIVE_END;
+	}
 	void AStudy_CPPCharacter::StaticRegisterNativesAStudy_CPPCharacter()
 	{
+		UClass* Class = AStudy_CPPCharacter::StaticClass();
+		static const FNameNativePtrPair Funcs[] = {
+			{ "FireProjectile", &AStudy_CPPCharacter::execFireProjectile },
+		};
+		FNativeFunctionRegistrar::RegisterFunctions(Class, Funcs, UE_ARRAY_COUNT(Funcs));
+	}
+	struct Z_Construct_UFunction_AStudy_CPPCharacter_FireProjectile_Statics
+	{
+		struct Study_CPPCharacter_eventFireProjectile_Parms
+		{
+			TSubclassOf<AAProjectileBase>  ProjectileClass;
+		};
+		static const UECodeGen_Private::FClassPropertyParams NewProp_ProjectileClass;
+		static const UECodeGen_Private::FPropertyParamsBase* const PropPointers[];
+#if WITH_METADATA
+		static const UECodeGen_Private::FMetaDataPairParam Function_MetaDataParams[];
+#endif
+		static const UECodeGen_Private::FFunctionParams FuncParams;
+	};
+	const UECodeGen_Private::FClassPropertyParams Z_Construct_UFunction_AStudy_CPPCharacter_FireProjectile_Statics::NewProp_ProjectileClass = { "ProjectileClass", nullptr, (EPropertyFlags)0x0014000000000080, UECodeGen_Private::EPropertyGenFlags::Class, RF_Public|RF_Transient|RF_MarkAsNative, nullptr, nullptr, 1, STRUCT_OFFSET(Study_CPPCharacter_eventFireProjectile_Parms, ProjectileClass), Z_Construct_UClass_UClass, Z_Construct_UClass_AAProjectileBase_NoRegister, METADATA_PARAMS(0, nullptr) };
+	const UECodeGen_Private::FPropertyParamsBase* const Z_Construct_UFunction_AStudy_CPPCharacter_FireProjectile_Statics::PropPointers[] = {
+		(const UECodeGen_Private::FPropertyParamsBase*)&Z_Construct_UFunction_AStudy_CPPCharacter_FireProjectile_Statics::NewProp_ProjectileClass,
+	};
+#if WITH_METADATA
+	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UFunction_AStudy_CPPCharacter_FireProjectile_Statics::Function_MetaDataParams[] = {
+		{ "Category", "Combat" },
+		{ "ModuleRelativePath", "Study_CPPCharacter.h" },
+	};
+#endif
+	const UECodeGen_Private::FFunctionParams Z_Construct_UFunction_AStudy_CPPCharacter_FireProjectile_Statics::FuncParams = { (UObject*(*)())Z_Construct_UClass_AStudy_CPPCharacter, nullptr, "FireProjectile", nullptr, nullptr, Z_Construct_UFunction_AStudy_CPPCharacter_FireProjectile_Statics::PropPointers, UE_ARRAY_COUNT(Z_Construct_UFunction_AStudy_CPPCharacter_FireProjectile_Statics::PropPointers), sizeof(Z_Construct_UFunction_AStudy_CPPCharacter_FireProjectile_Statics::Study_CPPCharacter_eventFireProjectile_Parms), RF_Public|RF_Transient|RF_MarkAsNative, (EFunctionFlags)0x04020401, 0, 0, METADATA_PARAMS(UE_ARRAY_COUNT(Z_Construct_UFunction_AStudy_CPPCharacter_FireProjectile_Statics::Function_MetaDataParams), Z_Construct_UFunction_AStudy_CPPCharacter_FireProjectile_Statics::Function_MetaDataParams) };
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UFunction_AStudy_CPPCharacter_FireProjectile_Statics::PropPointers) < 2048);
+	static_assert(sizeof(Z_Construct_UFunction_AStudy_CPPCharacter_FireProjectile_Statics::Study_CPPCharacter_eventFireProjectile_Parms) < MAX_uint16);
+	UFunction* Z_Construct_UFunction_AStudy_CPPCharacter_FireProjectile()
+	{
+		static UFunction* ReturnFunction = nullptr;
+		if (!ReturnFunction)
+		{
+			UECodeGen_Private::ConstructUFunction(&ReturnFunction, Z_Construct_UFunction_AStudy_CPPCharacter_FireProjectile_Statics::FuncParams);
+		}
+		return ReturnFunction;
 	}
 	IMPLEMENT_CLASS_NO_AUTO_REGISTRATION(AStudy_CPPCharacter);
 	UClass* Z_Construct_UClass_AStudy_CPPCharacter_NoRegister()
@@ -29,6 +79,7 @@ void EmptyLinkFunctionForGeneratedCodeStudy_CPPCharacter() {}
 	struct Z_Construct_UClass_AStudy_CPPCharacter_Statics
 	{
 		static UObject* (*const DependentSingletons[])();
+		static const FClassFunctionLinkInfo FuncInfo[];
 #if WITH_METADATA
 		static const UECodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
@@ -65,6 +116,10 @@ void EmptyLinkFunctionForGeneratedCodeStudy_CPPCharacter() {}
 		(UObject* (*)())Z_Construct_UPackage__Script_Study_CPP,
 	};
 	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AStudy_CPPCharacter_Statics::DependentSingletons) < 16);
+	const FClassFunctionLinkInfo Z_Construct_UClass_AStudy_CPPCharacter_Statics::FuncInfo[] = {
+		{ &Z_Construct_UFunction_AStudy_CPPCharacter_FireProjectile, "FireProjectile" }, // 1882806659
+	};
+	static_assert(UE_ARRAY_COUNT(Z_Construct_UClass_AStudy_CPPCharacter_Statics::FuncInfo) < 2048);
 #if WITH_METADATA
 	const UECodeGen_Private::FMetaDataPairParam Z_Construct_UClass_AStudy_CPPCharacter_Statics::Class_MetaDataParams[] = {
 		{ "HideCategories", "Navigation" },
@@ -174,11 +229,11 @@ void EmptyLinkFunctionForGeneratedCodeStudy_CPPCharacter() {}
 		"Game",
 		&StaticCppClassTypeInfo,
 		DependentSingletons,
-		nullptr,
+		FuncInfo,
 		Z_Construct_UClass_AStudy_CPPCharacter_Statics::PropPointers,
 		nullptr,
 		UE_ARRAY_COUNT(DependentSingletons),
-		0,
+		UE_ARRAY_COUNT(FuncInfo),
 		UE_ARRAY_COUNT(Z_Construct_UClass_AStudy_CPPCharacter_Statics::PropPointers),
 		0,
 		0x008000A4u,
@@ -204,9 +259,9 @@ void EmptyLinkFunctionForGeneratedCodeStudy_CPPCharacter() {}
 		static const FClassRegisterCompiledInInfo ClassInfo[];
 	};
 	const FClassRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_User_Documents_Unreal_Projects_Study_CPP_Source_Study_CPP_Study_CPPCharacter_h_Statics::ClassInfo[] = {
-		{ Z_Construct_UClass_AStudy_CPPCharacter, AStudy_CPPCharacter::StaticClass, TEXT("AStudy_CPPCharacter"), &Z_Registration_Info_UClass_AStudy_CPPCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AStudy_CPPCharacter), 1640238641U) },
+		{ Z_Construct_UClass_AStudy_CPPCharacter, AStudy_CPPCharacter::StaticClass, TEXT("AStudy_CPPCharacter"), &Z_Registration_Info_UClass_AStudy_CPPCharacter, CONSTRUCT_RELOAD_VERSION_INFO(FClassReloadVersionInfo, sizeof(AStudy_CPPCharacter), 2808430339U) },
 	};
-	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_User_Documents_Unreal_Projects_Study_CPP_Source_Study_CPP_Study_CPPCharacter_h_340868431(TEXT("/Script/Study_CPP"),
+	static FRegisterCompiledInInfo Z_CompiledInDeferFile_FID_Users_User_Documents_Unreal_Projects_Study_CPP_Source_Study_CPP_Study_CPPCharacter_h_3117706855(TEXT("/Script/Study_CPP"),
 		Z_CompiledInDeferFile_FID_Users_User_Documents_Unreal_Projects_Study_CPP_Source_Study_CPP_Study_CPPCharacter_h_Statics::ClassInfo, UE_ARRAY_COUNT(Z_CompiledInDeferFile_FID_Users_User_Documents_Unreal_Projects_Study_CPP_Source_Study_CPP_Study_CPPCharacter_h_Statics::ClassInfo),
 		nullptr, 0,
 		nullptr, 0);
